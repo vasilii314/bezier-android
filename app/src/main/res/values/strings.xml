@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">BezierAndroid</string>
+    <string name="canvas_content_description">Bezier Curves Paint. Draw four points to build a curve.</string>
+</resources>
