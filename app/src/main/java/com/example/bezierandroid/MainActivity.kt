@@ -29,13 +29,3 @@ class MainActivity : ComponentActivity() {
         setContentView(bezierCanvasView)
     }
 }
-
-
-@Composable
-fun BirthdayGreetingWithText(message: String, from: String) {
-    Column {
-        Text(text = message, fontSize = 36.sp)
-        Text(text = from, fontSize = 24.sp)
-    }
-}
-

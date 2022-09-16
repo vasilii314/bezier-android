@@ -82,7 +82,7 @@ class BezierCanvasView(context: Context) : View(context) {
                 ex = pointBuffer[3].first,
                 ey = pointBuffer[3].second
             )
-            curve.eval()
+            curve.cubic()
             for (point in curve.points) {
                 extraCanvas.drawPoint(point.first.toFloat(), point.second.toFloat(), paint)
             }

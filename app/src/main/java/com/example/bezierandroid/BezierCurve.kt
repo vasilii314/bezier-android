@@ -15,7 +15,7 @@ class BezierCurve(
 
     val points = mutableListOf<Pair<Double, Double>>()
 
-    fun eval() {
+    fun cubic() {
         var t = 0.0
         while (t <= 1) {
             val curveX = (1 - t).pow(3) * sx + 3 * t * (1 - t).pow(2) * cx1 + 3 * t.pow(2) * (1 - t) * cx2 + t.pow(3) * ex
